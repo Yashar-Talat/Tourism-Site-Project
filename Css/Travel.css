@@ -20,3 +20,9 @@ a {
 a:hover{
     color: #F25EE4;
 }
+
+li {
+    list-style-type: none;
+}
+
+
