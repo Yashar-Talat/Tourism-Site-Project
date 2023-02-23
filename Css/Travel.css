@@ -1,15 +1,16 @@
-@import url(../Icon/fontawesome-pro-6.1.1-web/all.min.css);
+@import url(../Icon/fontawesome-pro-6.1.1-web/css/all.min.css);
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 62.5%;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1;
+    font-size: 14px;
 }
 
 a {
@@ -26,11 +27,11 @@ li {
     transition: color 0.2s;
 }
 li:hover{
-    color: #fa0387;
+    color: #FF4A52;
     cursor: pointer;
 }
 .d-flex {
-    display: flex;
+    display: flex !important;
 }
 .w-100 {
     width: 100%;
@@ -38,11 +39,34 @@ li:hover{
 .w-50 {
     width: 50%;
 }
+.f-15 {
+    font-size: 15px;
+}
 .row {
     display: flex;
     width: 100%;
 }
+header{
+    background-color: #ffffff;
+    justify-content: space-around;
+    padding: 25px 0;
+    position: relative;
+}
 
+nav li {
+    display: none;
+    margin-right: 35px;
+    font-size: 1.3em;
+    margin-top: 13px;
+}
 
-
-
+.search-icon {
+   justify-content: center;
+   align-items: center;
+}
+.search-icon a {
+    color: black;
+}
+.berger-menu a{
+ color: black;
+}
