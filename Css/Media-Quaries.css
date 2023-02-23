@@ -1,4 +1,38 @@
-@media (min-width:566px) {}
+@media (min-width:576px) {
+    .search-icon {
+        position: absolute;
+        width: 45px;
+        background-color: #FF4A52;
+        right: 45px;
+        bottom: 0;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .berger-menu {
+        position: absolute;
+        background-color: #1EC6B6;
+        width: 45px;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+    }
+}
 @media (min-width:765px) {}
-@media (min-width:992px) {}
-@media (min-width:1200px) {}
+@media (min-width:992px) {
+    nav li {
+        display: inline-block;
+    }
+    .berger-menu {
+        display: none !important;
+    }
+   
+}
+@media (min-width:1200px) {
+    .search-icon {
+        width: 100px;
+    }
+}
