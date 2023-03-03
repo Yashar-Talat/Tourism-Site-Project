@@ -1,72 +1,78 @@
 @import url(../Icon/fontawesome-pro-6.1.1-web/css/all.min.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 a {
-    text-decoration: none;
-    transition: color .3s;
+  text-decoration: none;
+  transition: color 0.2s;
 }
 
-a:hover{
-    color: #F25EE4;
+a:hover {
+  color: #ff4a52;
 }
 
 li {
-    list-style-type: none;
-    transition: color 0.2s;
+  list-style-type: none;
+  transition: color 0.2s;
+  cursor: pointer;
 }
-li:hover{
-    color: #FF4A52;
-    cursor: pointer;
+li:hover {
+  color: #ff4a52;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 .d-flex {
-    display: flex !important;
+  display: flex !important;
 }
 .w-100 {
-    width: 100%;
+  width: 100% !important;
 }
 .w-50 {
-    width: 50%;
+  width: 50% !important;
 }
-.f-15 {
-    font-size: 15px;
+.font-15 {
+  font-size: 1.5rem;
 }
 .row {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
-header{
-    background-color: #ffffff;
-    justify-content: space-around;
-    padding: 25px 0;
-    position: relative;
+
+header {
+  background-color: #ffffff;
+  justify-content: space-around;
+  padding: 25px 0;
+  position: relative;
 }
 
 nav li {
-    display: none;
-    margin-right: 35px;
-    font-size: 1.3em;
-    margin-top: 13px;
+  display: none;
+  margin-right: 35px;
+  font-size: 1.3em;
+  margin-top: 13px;
 }
 
 .search-icon {
-   justify-content: center;
-   align-items: center;
+  background-color: #ff4a52;
+  justify-content: center;
+  align-items: center;
 }
 .search-icon a {
-    color: black;
+  color: white;
 }
-.berger-menu a{
- color: black;
+.berger-menu a {
+  color: black;
 }
