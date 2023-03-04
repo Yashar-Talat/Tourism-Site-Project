@@ -1,71 +1,70 @@
-@media (min-width:576px) {
-    .search-icon {
-        position: absolute;
-        width: 45px;
-        background-color: #FF4A52;
-        right: 45px;
-        bottom: 0;
-        top: 0;
-        justify-content: center;
-        align-items: center;
-    }
-    .berger-menu {
-        position: absolute;
-        background-color: #1EC6B6;
-        width: 45px;
-        justify-content: center;
-        align-items: center;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        z-index: 100;
-    }
-    .search-icon a {
-        color: white !important;
-    }
+@media (min-width: 576px) {
+  .search-icon {
+    position: absolute;
+    width: 45px;
+    background-color: #ff4a52;
+    right: 45px;
+    bottom: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .berger-menu {
+    position: absolute;
+    background-color: #1ec6b6;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .search-icon a {
+    color: white !important;
+  }
 }
-@media (min-width:768px) {}
-@media (min-width:992px) {
-    nav li {
-        display: inline-block;
-    }
-    .berger-menu {
-        display: none !important;
-    }
-    .search-icon {
-        right: 0;
-    }
-    .berger-menu {
-        display: none !important;
-    }
-    footer {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-   
+@media (min-width: 768px) {
 }
-@media (min-width:1200px) {
-    .search-icon {
-        width: 100px;
-    }
-    .search-bar {
-        flex-direction: row;
-        justify-content: center;
-
-    }
-    .search-form {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .newsletter-container {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .mail-form {
-        display: block;
-    }
-    .newsletter-text {
-        margin-top: 0;
-        margin-right: 10px;
-    }
+@media (min-width: 992px) {
+  nav li {
+    display: inline-block;
+  }
+  .berger-menu {
+    display: none !important;
+  }
+  .search-icon {
+    right: 0;
+  }
+  .berger-menu {
+    display: none !important;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  .search-icon {
+    width: 100px;
+  }
+  .search-bar {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .search-form {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .newsletter-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mail-form {
+    display: block;
+  }
+  .newsletter-text {
+    margin-top: 0;
+    margin-right: 10px;
+  }
 }
