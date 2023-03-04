@@ -38,6 +38,10 @@
     .berger-menu {
         display: none !important;
     }
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
    
 }
 @media (min-width:1200px) {
